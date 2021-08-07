@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="/css/miestilo.css">
+    <script src="/js/animaciones.js"></script>   
+    <title>Portafolio</title>
+</head>
+<body>
+        <nav class="orange" >
+        <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Rosa Montesinos Puma</a>
+        <a href="" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="trabajo.html">Trabajo</a></li>
+            <li><a href="acerca de mi.html">Acerda de mi</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+        </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="trabajo.html">Trabajo</a></li>
+            <li><a href="acerca de mi.html">Acerda de mi</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+        <!--slider-->
+<div class="row">
+    <div class="col s12">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="/img/TORTAA.jpg" alt="">
+                    <div class="caption left-align">
+                    <h5 class="red center black-text">Diseño de afiche de la pasteleria</h5>
+                    <h6 class="red center black-text">Nuestra empresa consiste en la elaboración y ventas de tortas
+                         y pasteles: Está conformada por un grupo de personas con un solo objetivo…hacer cosas ricas.
+                          Cada día nos esforzamos por hacer productos caseros y de gran calidad, 
+                          los cuales hacen la diferencia que nuestros clientes prefieren en las tortas y pasteles.
+                    </h6>
+                </li>
+                <li> <img src="/img/PAST1.jpg" alt="">
+                    <div class="caption left-align">
+                        <h5 class="red center black-text"> Diseño de afiche de la pasteleria</h5>
+                        <h6 class="red center black-text">
+                            Se conoce como Repostería a la actividad que desarrolla un Repostero y es un oficio
+                             también que se encarga de preparar y decorar dulces, tales como tortas, galletas, 
+                             cremas, salsas dulces, pasteles, budines y confites y se considera 
+                             como arte que se basa en la elaboración de todo tipo de dulces y materiales básicos
+                        </h6>
+                </li>
+                <li>
+                    <img src="/img/TORTAAA.jpg" alt="">
+                    <div class="caption left-align">
+                        <h5 class="red center black-text"> Diseño de afiche de la pasteleria</h5>
+                        <h6 class="red center black-text">
+                            Productos de pastelería y repostería. 
+                            Son los productos no fermentados de diversa forma,
+                            tamaño y composición, considerados de fantasía y 
+                            elaborados a base de harina de trigo o de otras procedencias,
+                            con féculas, azúcares, grasas comestibles y otros productos alimenticios.
+                        </h6>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col s12">
+        <div class="carousel">
+         <a href="" class="carousel-item"><img src="/img/carousel/descarga (11).jpg" alt=""></a>
+         <a href="" class="carousel-item"><img src="/img/carousel/descarga (12).jpg" alt=""></a>
+         <a href="" class="carousel-item"><img src="/img/carousel/images (24).jpg" alt=""></a>
+         <a href="" class="carousel-item"><img src="/img/carousel/images (25).jpg" alt=""></a>
+         <a href="" class="carousel-item"><img src="/img/carousel/pstl.jpg" alt=""></a>
+         <a href="" class="carousel-item"><img src="/img/carousel/pstl1.jpg" alt=""></a>
+</div>
+</div>
+</div>
+
+<script>
+    $('#textarea1').val('New Text');
+  M.textareaAutoResize($('#textarea1'));
+</script>
+
+<script>
+                document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var options = {};
+      var elems = document.querySelectorAll('.carousel');
+  var instances = M.Carousel.init(elems, options);
+});
+
+// Or with jQuery
+
+$(document).ready(function(){
+  $('.carousel').carousel();
+});
+    
+</script>
+<!--boton flotante-->
+<div class="fixed-action-btn">
+    <a href="https://wa.link/mx21hx"
+    class="btn-floating btn-large green ">
+    <i class="material-icons">message</i></a>
+</div>
+<!--pie de pagina-->
+<footer>
+    <div class="row">
+        <div class="col s5"></div>
+        <div class="col s2">
+        <a href="https://web.facebook.com/"target="_blak"> <img src="https://image.flaticon.com/icons/png/512/1384/1384005.png" 
+        alt="" width="30px"></a>
+        </div>
+        <div  class="col s5"></div>
+    </div>
+    <div class="row">
+        <div class="col s12 center-align red-text">
+            &copy;2021 por Rosa Montesinos Puma
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

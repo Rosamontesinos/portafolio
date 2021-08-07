@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="/css/miestilo.css">
+    <script src="/js/animaciones.js"></script>   
+    <title>Portafolio</title>
+</head>
+<body>
+        <nav class="orange" >
+        <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Rosa Montesinos Puma</a>
+        <a href="" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="trabajo.html">Trabajo</a></li>
+            <li><a href="acercademi.html">Acerda de mi</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+
+        </div>
+
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="trabajo.html">Trabajo</a></li>
+            <li><a href="acercademi.html">Acerda de mi</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+        <!--perfil-->
+        <div class="row">
+            <div class="col s12 l6">
+            <img src="/img/carousel/rosy.png" alt="" class="responsive-img">
+            </div>
+            <div class="col s12 l6 center red-text">
+                <h4> ACERCA DE MI</h4>
+                <h5> Perfil profesional</h5>
+               <p><h10> Trabajo de manera profesional y con experiencia en Ciudad de México. 
+                Mi obra se centra en resultados de calidad que crean un impacto significativo.
+                Me complace emplear la experiencia y habilidades 
+                que he obtenido en mi carrera para lograr proyectos interesantes mediante 
+                la resolución creativa de problemas y pensamiento innovador.
+                Eche un vistazo a mis creaciones y póngase en contacto si tiene alguna pregunta.</h10></p>
+
+            </div>
+        </div>
+
+<script>
+    $('#textarea1').val('New Text');
+  M.textareaAutoResize($('#textarea1'));
+</script>
+
+<script>
+                document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+<!--boton flotante-->
+<div class="fixed-action-btn">
+    <a href="https://wa.link/mx21hx"
+    class="btn-floating btn-large green ">
+    <i class="material-icons">message</i></a>
+</div>
+<!--pie de pagina-->
+<footer>
+    <div class="row">
+        <div class="col s5"></div>
+        <div class="col s2">
+        <a href="https://web.facebook.com/"target="_blak"> <img src="https://image.flaticon.com/icons/png/512/1384/1384005.png" 
+        alt="" width="30px"></a>
+        </div>
+        <div  class="col s5"></div>
+    </div>
+    <div class="row">
+        <div class="col s12 center-align red-text">
+            &copy;2021 por Rosa Montesinos Puma
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
